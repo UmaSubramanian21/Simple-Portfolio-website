@@ -1,0 +1,107 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: "Parkinsans", sans-serif;
+}
+.container{
+    padding:50px;
+}
+.section-one__container{
+    background-color:black;
+    color:white;
+    padding:20px;
+}
+.section-one__contact{
+    text-decoration:none;
+    background-color:orangered;
+    color:white;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    display:inline-block;
+    margin-top:10px;
+}
+.section-one_name{
+    font-size:60px;
+}
+.section-one_role{
+    font-size:30px;
+}
+.section-two,.section-three,.section-four,.section-five{
+    margin-top:20px;
+}
+.section-two_desc,.section-three_desc,.section-four_desc,.section-five_desc{
+    margin-top:10px;
+}
+.section-five{
+    background-color:black;
+    color:white;
+    padding:20px;
+
+}
+.section-five_title{
+    display:inline-block;
+}
+
+.section-five a{
+    color:powderblue;
+}
+
+.section-three_desc.li{
+    text-decoration:none;
+}
+.section-three li{
+    list-style:none;
+}
+.section-three{
+    background-color:#6462FD;
+    display:inline-block;
+    padding:20px;
+    color:black;
+    border-radius:10px;
+    vertical-align:top;
+    height:200px;
+}
+.section-four{
+    background-color: #fe7517;
+    display:inline-block;
+    padding:20px;
+    color:black;
+    border-radius:10px;
+    vertical-align:top;
+    height:200px;
+    width:900px;
+}
+
+/* contact form css */
+
+.contact-form_input,.contact-form_message,.contact-form_button{
+    margin-top:10px;
+
+    
+}
+
+.contact-form_input{
+    border:none;
+    border-bottom:solid black 1px;
+    padding:10px;
+}
+
+.contact-form_message{
+    border:none;
+    border:solid black 1px;
+    padding:10px;
+}
+
+.contact-form_button{
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:20px;
+    padding-left:20px;
+    background-color:orangered;
+    color:black;
+    border:none;
+}
